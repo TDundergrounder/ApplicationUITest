@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Run>
+    <Platform name ="Android_HUAWEI">
+        <Module name ="Capabilities">
+            <Data Key="platformName" Value="Android"/>
+            <Data Key="platformVersion" Value="10.0"/>
+            <Data Key="deviceName" Value="HUAWEI_Aiways"/>
+            <Data Key="appPackage" Value="com.aiways.auto"/>
+            <Data Key="appActivity" Value="com.aiways.auto.business.SplashActivity"/>
+            <Data Key="noReset" Value="true"/>
+            <Data Key="resetKeyboard" Value="true"/>
+        </Module>
+        <Module name="LoginOut">
+            <Data Key="mobile" Value="15800000070"/>
+            <Data Key="code" Value="223456"/>
+        </Module>
+        <Module name="News">
+            <Data Key="CommentContent" Value="appium_UITest_"/>
+            <Data Key="ComReplyContent" Value="appium_UITest_Reply"/>
+        </Module>
+        <Module name="Topics">
+            <Data/>
+        </Module>
+    </Platform>
+    <Platform name ="Android_GalaxyS9">
+        <Module name ="Capabilities">
+            <Data Key="platformName" Value="Android"/>
+            <Data Key="platformVersion" Value="10.0"/>
+            <Data Key="deviceName" Value="HUAWEI_Aiways"/>
+            <Data Key="appPackage" Value="com.aiways.auto"/>
+            <Data Key="appActivity" Value="com.aiways.auto.business.SplashActivity"/>
+            <Data Key="noReset" Value="true"/>
+            <Data Key="resetKeyboard" Value="true"/>
+        </Module>
+        <Module name="LoginOut">
+            <Data Key="15800000070" Value="223456"/>
+        </Module>
+        <Module name="News">
+            <Data/>
+        </Module>
+        <Module name="Topics">
+            <Data/>
+        </Module>
+    </Platform>
+    <Platform name="ios_iphoneXS">
+
+    </Platform>
+</Run>

@@ -1,0 +1,12 @@
+
+nsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ä°¦€
+Tsquid:S1118":Add a private constructor to hide the implicit public one.(áÑ¥µıÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³­Çøÿÿÿÿ
+psquid:S3008"VRename this field "is_isLoaded" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¥£Åûÿÿÿÿ
+ssquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹‘†Îûÿÿÿÿ
+fsquid:UselessImportCheck"?Remove this unused import 'com.aiways.constants.TestConstants'.(òóÇğÿÿÿÿÿ
+isquid:S3008"TRename this field "_isLoaded" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÚ¾à
+ysquid:UselessImportCheck"RRemove this unused import 'com.aiways.models.capability.AndroidCapabilitiesModel'.(ø¼ö†úÿÿÿÿ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¼š‘µ
+\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¼š‘µ
+[squid:UselessImportCheck"4Remove this unused import 'org.testng.ITestContext'.(¤†ç–üÿÿÿÿ

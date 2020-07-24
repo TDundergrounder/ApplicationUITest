@@ -1,0 +1,7 @@
+
+nsquid:UselessImportCheck"GRemove this unused import 'com.aiways.Invokers.SetCapabilitiesInvoker'.(®ζϋτώÿÿÿÿ
+osquid:UselessImportCheck"HRemove this unused import 'io.appium.java_client.android.AndroidDriver'.(η•Ψ®ύÿÿÿÿ
+msquid:S00116"WRename this field "_newsInvoker" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(΅¥Έ
+nsquid:S00116"XRename this field "_loginInvoker" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Λ”α
+jsquid:UselessImportCheck"IRemove this unused import 'io.appium.java_client.android.AndroidElement'.(ί°›"
+osquid:S00116"YRename this field "_commonInvoker" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Τ‰™ί

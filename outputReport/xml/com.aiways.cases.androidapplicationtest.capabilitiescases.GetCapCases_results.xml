@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/gyliang/Android Application Test/src/main/resources"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.704">
+  <properties />
+  
+  
+            <testcase name="startApp" time="7.373" classname="com.aiways.cases.androidapplicationtest.capabilitiescases.GetCapCases" />
+                <testcase name="startApp" time="6.331" classname="com.aiways.cases.androidapplicationtest.capabilitiescases.GetCapCases" />
+      
+</testsuite>

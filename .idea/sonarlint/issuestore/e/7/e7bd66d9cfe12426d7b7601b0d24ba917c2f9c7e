@@ -1,0 +1,18 @@
+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(…ºÎw8ßªŒ¯·.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¢ªïÂ8äŠ¡¬·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¦™òãùÿÿÿÿ8°§ñ£·.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(„è½ú8äÐ‹¯·.
+usquid:S00116"SRename this field "is_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎúÛþÿÿÿÿ8Õ‹Œ£·.
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³íÛ´8±Ü½ÿ¶.
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(ùÀÑ8ßªŒ¯·.
+xsquid:S1192"\Define a constant instead of duplicating this literal "å½“å‰è¯¦æƒ…é¡µä¸ºçº¯æ–‡å­—" 3 times.(§ýÔ†8ßªŒ¯·.
+lsquid:S00116"ORename this field "_log" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËñÓ˜8êÈú¢·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¡¶•‘øÿÿÿÿ8°§ñ£·.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(×¿ÐÚ8ßªŒ¯·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÚÓ¡·üÿÿÿÿ8äÐ‹¯·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(è´¹œøÿÿÿÿ8°§ñ£·.

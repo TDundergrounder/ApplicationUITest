@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Android Application Test" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/gyliang/Android Application Test/src/main/resources">
+        <classes>
+<!--            <class name="com.aiways.cases.androidapplicationtest.capabilitiescases.GetCapCases"></class>-->
+            <class name="com.aiways.cases.androidapplicationtest.logincases.LoginOutCases"></class>
+        </classes>
+    </test>
+</suite>
+

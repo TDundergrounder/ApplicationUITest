@@ -1,0 +1,5 @@
+
+wsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "model".(ù«÷Âúÿÿÿÿ
+}squid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "locateModel".(®£îÿÿÿÿÿ
+tsquid:S3008"ZRename this field "_newslocateData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Õáˆÿÿÿÿÿ
+nsquid:S3008"TRename this field "_newsData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òõ§ƒúÿÿÿÿ
