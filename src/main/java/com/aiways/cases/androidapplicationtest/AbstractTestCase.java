@@ -1,11 +1,9 @@
 package com.aiways.cases.androidapplicationtest;
 
-import com.aiways.Invokers.CommonInvoker;
-import com.aiways.Invokers.LoginInvoker;
-import com.aiways.Invokers.NewsInvoker;
-import com.aiways.Invokers.SetCapabilitiesInvoker;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
+import com.aiways.Invokers.androidInvokers.CommonInvoker;
+import com.aiways.Invokers.androidInvokers.LoginInvoker;
+import com.aiways.Invokers.androidInvokers.NewsInvoker;
+import com.aiways.Invokers.androidInvokers.TopicsInvoker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
@@ -25,6 +23,9 @@ public abstract class AbstractTestCase extends AbstractTestNGSpringContextTests 
     @Autowired
     protected NewsInvoker _newsInvoker;
 
+    @Autowired
+    protected TopicsInvoker _topicsInvoker;
+
     @BeforeClass
     public void setTestContext(ITestContext context) {
 
@@ -38,6 +39,10 @@ public abstract class AbstractTestCase extends AbstractTestNGSpringContextTests 
 
         if (null == context.getAttribute(CommonInvoker.class.getTypeName())) {
             context.setAttribute(CommonInvoker.class.getTypeName(), _commonInvoker);
+        }
+
+        if (null == context.getAttribute(TopicsInvoker.class.getTypeName())) {
+            context.setAttribute(TopicsInvoker.class.getTypeName(), _topicsInvoker);
         }
     }
 

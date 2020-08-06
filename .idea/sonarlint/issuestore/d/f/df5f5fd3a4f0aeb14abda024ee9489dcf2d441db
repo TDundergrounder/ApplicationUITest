@@ -1,0 +1,5 @@
+
+Lsquid:S1172"2Remove this unused method parameter "testContext".(²Ü°¢üÿÿÿÿ
+rsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "model".(–àúŒ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÁŸóøÿÿÿÿ
+vsquid:S3008"\Rename this field "_capabilitiesData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ÇÇ÷þÿÿÿÿ

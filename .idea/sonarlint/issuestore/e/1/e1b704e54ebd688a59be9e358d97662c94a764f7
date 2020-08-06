@@ -1,0 +1,27 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8òŒÒ·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆùÇùùÿÿÿÿ8ƒË¯Ö·.
+Lsquid:S1172"0Remove this unused method parameter "dataModel".(Å˜ä8¸‚„Ã».
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÌƒƒÙ·.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æ¼¸ª·.
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÜÏÀ8Óæ¼ª·.
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+‡"squid:ClassVariableVisibilityCheck"VMake isTextArea a static final constant or non-public and provide accessors if needed.(Œ´õ¢ıÿÿÿÿ
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¶ÆÖ·.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·çÎœ8²±½ı·.
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡†Ğùşÿÿÿÿ
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8åîô¬·.
+Lsquid:S1172"0Remove this unused method parameter "dataModel".(©‰Ã¢8¸‚„Ã».
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Á’‹şÿÿÿÿ8ºö¿ö·.
+Qsquid:S1172"0Remove this unused method parameter "dataModel".(‰Å’®ûÿÿÿÿ8¸‚„Ã».
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ¬çÜ8òŒÒ·.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÌƒƒÙ·.
+‚"squid:ClassVariableVisibilityCheck"VMake isExistImg a static final constant or non-public and provide accessors if needed.(Ó÷òª
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„¶ÆÖ·.
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ô°Óñúÿÿÿÿ8ƒË¯Ö·.
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8òŒÒ·.
+„"squid:ClassVariableVisibilityCheck"XMake isExistVideo a static final constant or non-public and provide accessors if needed.(Æ®
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡æç¸8ñâäØ·.
+Lsquid:S1172"0Remove this unused method parameter "dataModel".(ÄÒ÷8¸‚„Ã».

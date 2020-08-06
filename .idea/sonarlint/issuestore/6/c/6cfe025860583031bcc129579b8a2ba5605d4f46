@@ -1,0 +1,4 @@
+
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úÁŸóøÿÿÿÿ
+jsquid:S3008"VRename this field "_commonData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µæóY
+wsquid:S1488"cImmediately return this expression instead of assigning it to the temporary variable "commonModel".(à‡¥G

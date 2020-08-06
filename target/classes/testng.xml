@@ -9,6 +9,8 @@
         <classes>
 <!--            <class name="com.aiways.cases.androidapplicationtest.capabilitiescases.GetCapCases"></class>-->
             <class name="com.aiways.cases.androidapplicationtest.logincases.LoginOutCases"></class>
+            <class name="com.aiways.cases.androidapplicationtest.newscases.NewsActionCases"></class>
+            <class name="com.aiways.cases.androidapplicationtest.topicscases.TopicsActionCases"></class>
         </classes>
     </test>
 </suite>

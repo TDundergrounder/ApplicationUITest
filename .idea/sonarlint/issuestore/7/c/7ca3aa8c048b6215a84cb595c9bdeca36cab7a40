@@ -1,0 +1,12 @@
+
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾½Áüÿÿÿÿ8úÕÙº».
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÁõªøÿÿÿÿ8úÕÙº».
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô™šÓ8š÷¿»».
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÑë8£¨À»».
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÁõªøÿÿÿÿ8úÕÙº».
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô™šÓ8š÷¿»».
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã§¥Ñûÿÿÿÿ8š÷¿»».
+tsquid:S00116"WRename this field "isLogin_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ Ò8±ë¾»».
+wsquid:S00116"URename this field "mine_xpath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§¤æşÿÿÿÿÿ8¨ıØº».
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÑë8£¨À»».
+psquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿÊ×ó

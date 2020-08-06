@@ -1,16 +1,15 @@
 package com.aiways.cases.androidapplicationtest.newscases;
 
-import com.aiways.Invokers.SetCapabilitiesInvoker;
+import com.aiways.Invokers.androidInvokers.SetCapabilitiesInvoker;
 import com.aiways.cases.androidapplicationtest.AbstractTestCase;
 import com.aiways.constants.TestConstants;
-import com.aiways.dataprovider.CommonDataProvider;
-import com.aiways.dataprovider.NewsDataProvider;
-import com.aiways.models.Common.CommonModel;
-import com.aiways.models.capability.AndroidCapabilitiesModel;
-import com.aiways.models.news.NewsDataModel;
-import com.aiways.models.news.NewsLocateModel;
+import com.aiways.dataprovider.androidDataProviders.CommonDataProvider;
+import com.aiways.dataprovider.androidDataProviders.NewsDataProvider;
+import com.aiways.models.androidModels.Common.CommonModel;
+import com.aiways.models.androidModels.capability.AndroidCapabilitiesModel;
+import com.aiways.models.androidModels.news.NewsDataModel;
+import com.aiways.models.androidModels.news.NewsLocateModel;
 import com.aiways.utilities.ClientGroup;
-import com.aiways.utilities.SwipeTool;
 import com.google.gson.Gson;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -84,7 +83,7 @@ public class NewsActionCases extends AbstractTestCase {
         _newsInvoker.viewNewsDetail(dataModel, locateModel, driver, newsIndex);
         //点击查看banner图
         _newsInvoker.viewNewsDetailBanner(dataModel, locateModel, driver);
-        //滑动到底部
+        //press back
         KeyEvent event = new KeyEvent(BACK);
         driver.pressKey(event);
     }

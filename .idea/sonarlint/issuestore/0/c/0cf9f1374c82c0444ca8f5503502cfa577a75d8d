@@ -1,0 +1,6 @@
+
+Lsquid:S1172"2Remove this unused method parameter "testContext".(Ï§°şÿÿÿÿ
+‰squid:UselessImportCheck"`Remove this unused import 'com.aiways.models.androidModels.capability.AndroidCapabilitiesModel'.(¹©×…8‹¯Û™».
+rsquid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "model".(ÄŒÛİ
+usquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şĞ³üÿÿÿÿ
+{squid:S3008"_Rename this field "_ioscapabilitiesData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å¾´ª8õÚÑ™».

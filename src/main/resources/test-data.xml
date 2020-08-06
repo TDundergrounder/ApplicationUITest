@@ -15,8 +15,8 @@
             <Data Key="code" Value="223456"/>
         </Module>
         <Module name="News">
-            <Data Key="CommentContent" Value="appium_UITest_"/>
-            <Data Key="ComReplyContent" Value="appium_UITest_Reply"/>
+            <Data Key="CommentContent" Value="appiumAndroid_UITest_"/>
+            <Data Key="ComReplyContent" Value="appiumAndroid_UITest_Reply"/>
         </Module>
         <Module name="Topics">
             <Data/>
@@ -44,5 +44,23 @@
     </Platform>
     <Platform name="ios_iphoneXS">
 
+    </Platform>
+    <Platform name="ios_iPhone XS Max">
+        <Module name="Capabilities">
+            <Data Key="platformName" Value="iOS"/>
+            <Data Key="udid" Value="00008020-0008343C0E42002E"/>
+            <Data Key="platformVersion" Value="13.3.1"/>
+            <Data Key="deviceName" Value="Qa iPhoneMax"/>
+            <Data Key="automationName" Value="XCUITest"/>
+            <Data Key="bundleId" Value="com.aiways.auto"/>
+        </Module>
+        <Module name="LoginOut">
+            <Data Key="mobile" Value="15800000070"/>
+            <Data Key="code" Value="223456"/>
+        </Module>
+        <Module name="News">
+            <Data Key="CommentContent" Value="appiumios_UITest_"/>
+            <Data Key="ComReplyContent" Value="appiumios_UITest_Reply"/>
+        </Module>
     </Platform>
 </Run>

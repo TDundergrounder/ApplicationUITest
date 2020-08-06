@@ -1,20 +1,17 @@
 package com.aiways.cases.androidapplicationtest.capabilitiescases;
 
-import com.aiways.Invokers.SetCapabilitiesInvoker;
+import com.aiways.Invokers.androidInvokers.SetCapabilitiesInvoker;
 import com.aiways.cases.androidapplicationtest.AbstractTestCase;
 import com.aiways.constants.TestConstants;
-import com.aiways.dataprovider.CapabilitiesDataprovider;
-import com.aiways.models.capability.AndroidCapabilitiesModel;
+import com.aiways.dataprovider.androidDataProviders.CapabilitiesDataprovider;
+import com.aiways.models.androidModels.capability.AndroidCapabilitiesModel;
 import com.aiways.utilities.ClientGroup;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
-import org.json.simple.parser.ParseException;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 @Test(groups = TestConstants.GROUP_CAPABILITIES,singleThreaded = true )

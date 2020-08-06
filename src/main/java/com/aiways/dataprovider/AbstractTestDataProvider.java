@@ -1,13 +1,10 @@
 package com.aiways.dataprovider;
 
-import com.aiways.constants.TestConstants;
 import com.aiways.config.TestConfiguration;
 
-import com.aiways.models.capability.AndroidCapabilitiesModel;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.testng.Assert;
-import org.testng.ITestContext;
 
 import java.io.InputStream;
 import java.util.HashMap;

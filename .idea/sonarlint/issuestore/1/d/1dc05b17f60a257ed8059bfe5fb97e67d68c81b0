@@ -1,0 +1,8 @@
+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÉÌ™8åæ·ð¸.
+qsquid:UselessImportCheck"IRemove this unused import 'io.appium.java_client.android.AndroidElement'.(ß°›"8åæ·ð¸.
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(œÒ¹¢8Ì ºð¸.
+Msquid:S1444",Make this "public static driver" field final(ýº·Ùüÿÿÿÿ8Ì ºð¸.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ú²´ð¸.
+vsquid:UselessImportCheck"HRemove this unused import 'io.appium.java_client.android.AndroidDriver'.(ç•Ø®ýÿÿÿÿ8åæ·ð¸.
+Š"squid:ClassVariableVisibilityCheck"RMake driver a static final constant or non-public and provide accessors if needed.(ýº·Ùüÿÿÿÿ8Ì ºð¸.

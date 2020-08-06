@@ -1,0 +1,11 @@
+
+^squid:S2147"DCombine this catch with the one at line 57, which has the same body.(É˜ÙŽúÿÿÿÿ
+xsquid:S00116"]Rename this field "_appium_remotePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êœ™ªÿÿÿÿÿ
+ssquid:S00116"]Rename this field "_appium_remotePort" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãê˜É
+jsquid:S00116"TRename this field "_platform" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÍ¢”
+rsquid:S00116"]Rename this field "_appium_remoteHost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ýæ«)
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ý¶ÇÉúÿÿÿÿ
+csquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ä‘
+§%squid:RedundantThrowsDeclarationCheck"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(“Ôñ†
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿‘±òþÿÿÿÿ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÆóÖ

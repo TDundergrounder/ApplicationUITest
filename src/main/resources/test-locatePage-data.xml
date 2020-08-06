@@ -42,7 +42,10 @@
             <Data Key="androidBtn_classname" Value="android.widget.Button"/>
         </Module>
         <Module name="Topics">
-            <Data/>
+            <Data Key="topicsTab_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题']/android.widget.TextView"/>
+            <Data Key="topicBtn_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题帖']" />
+            <Data Key="voteBtn_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='投票']"/>
+            <Data Key="topicsPicture_id" Value="com.aiways.auto:id/img_picture"/>
         </Module>
     </Platform>
     <Platform name ="Android_GalaxyS9">
@@ -66,5 +69,29 @@
     </Platform>
     <Platform name="ios_iphoneXS">
 
+    </Platform>
+    <Platform name="ios_iPhone XS Max">
+        <Module name="Common">
+            <Data Key="mine_xpath" Value="//XCUIElementTypeButton[@name='我的']"/>
+            <Data Key="isLogin_name" Value="签到领积分"/>
+        </Module>
+        <Module name="LoginOut">
+            <Data Key="mine_xpath" Value="//XCUIElementTypeButton[@name='我的']"/>
+            <Data Key="isLogin_name" Value="签到领积分"/>
+            <Data Key="reglogin_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '注册/登录'"/>
+            <Data Key="input_IosNsPredicate" Value="type == 'XCUIElementTypeTextField'"/>
+            <Data Key="loginBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '登录/注册'"/>
+            <Data Key="settingsBtn_IosNsPredicate" Value="type == 'XCUIElementTypeCell'"/>
+            <Data Key="logoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeCell'" />
+            <Data Key="confirmlogoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '确定'" />
+        </Module>
+        <Module name="News">
+            <Data Key="HomeBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND name == '首页'" />
+            <Data Key="XCUIElementTypeCells_xpath" Value="//XCUIElementTypeApplication[@name='爱驰汽车']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell" />
+            <Data Key="back_AccessibilityId" Value="navigation back" />
+            <Data Key="imgElementsLis1t_IosNsPredicate" Value="type == 'XCUIElementTypeImage' AND visible == true AND enabled == true"/>
+            <Data Key="imgElementsList2_IosNsPredicate" Value="type == 'XCUIElementTypeImage'" />
+
+        </Module>
     </Platform>
 </Run>

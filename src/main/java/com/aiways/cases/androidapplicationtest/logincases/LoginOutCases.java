@@ -1,12 +1,12 @@
 package com.aiways.cases.androidapplicationtest.logincases;
 
-import com.aiways.Invokers.SetCapabilitiesInvoker;
+import com.aiways.Invokers.androidInvokers.SetCapabilitiesInvoker;
 import com.aiways.cases.androidapplicationtest.AbstractTestCase;
 import com.aiways.constants.TestConstants;
-import com.aiways.dataprovider.LoginOutDataProvider;
-import com.aiways.models.capability.AndroidCapabilitiesModel;
-import com.aiways.models.login_out.LoginOutLocateModel;
-import com.aiways.models.login_out.LoginOutModel;
+import com.aiways.dataprovider.androidDataProviders.LoginOutDataProvider;
+import com.aiways.models.androidModels.capability.AndroidCapabilitiesModel;
+import com.aiways.models.androidModels.login_out.LoginOutLocateModel;
+import com.aiways.models.androidModels.login_out.LoginOutModel;
 import com.aiways.utilities.ClientGroup;
 import com.google.gson.Gson;
 import io.appium.java_client.android.AndroidDriver;
@@ -40,15 +40,14 @@ public class LoginOutCases extends AbstractTestCase {
     }
 
     @Test(dataProvider = LoginOutDataProvider.DATA_GETLOGINOUTDATA,dataProviderClass = LoginOutDataProvider.class)
-    private void RunLoginOut(LoginOutModel model, LoginOutLocateModel loc_model){
+private void RunLoginOut(LoginOutModel model, LoginOutLocateModel loc_model){
 
-        _loginInvoker.loginOut(model,loc_model,driver);
-    }
+    _loginInvoker.loginOut(model,loc_model,driver);
+}
 
     @AfterTest
     private void quit(){
         driver.quit();
     }
-
 
 }

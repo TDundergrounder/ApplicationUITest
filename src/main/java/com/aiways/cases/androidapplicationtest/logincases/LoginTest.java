@@ -1,7 +1,7 @@
 package com.aiways.cases.androidapplicationtest.logincases;
 
 
-import com.aiways.utilities.SwipeTool;
+import com.aiways.utilities.SwipeTools.SwipeTool;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;

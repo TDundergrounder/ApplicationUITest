@@ -45,7 +45,7 @@ public class TestConfiguration {
 
 
 
-    private static final  TestConfiguration _configuration = new TestConfiguration();
+    private static final TestConfiguration _configuration = new TestConfiguration();
 
     private TestConfiguration()
     {
@@ -64,12 +64,12 @@ public class TestConfiguration {
         }
     }
 
-    public static TestConfiguration  instance()
+    public static TestConfiguration instance()
     {
         return _configuration;
     }
 
-    public  void load() throws FileNotFoundException, IOException {
+    public void load() throws FileNotFoundException, IOException {
         InputStream stream=getClass().getResourceAsStream(FILE);
 
         Properties properties = new Properties();
