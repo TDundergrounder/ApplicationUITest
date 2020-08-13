@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Run>
-    <Platform name ="Android_HUAWEI">
+    <Platform name="Android_HUAWEI">
         <Module name="Common">
             <Data Key="mine_xpath" Value="//android.widget.FrameLayout[@content-desc='我的']/android.widget.ImageView"/>
             <Data Key="isLoginTag_id" Value="com.aiways.auto:id/tv_follow"/>
         </Module>
         <Module name="LoginOut">
             <Data Key="isLoginTag_id" Value="com.aiways.auto:id/tv_follow"/>
-            <Data Key="mobile_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText"/>
-            <Data Key="code_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.EditText"/>
+            <Data Key="mobile_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText"/>
+            <Data Key="code_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.EditText"/>
             <Data Key="loginBtn_id" Value="com.aiways.auto:id/btn_login"/>
             <Data Key="MineRelativeLayoutClass_name" Value="android.widget.RelativeLayout"/>
             <Data Key="SettingRelativeLayoutClass_name" Value="android.widget.RelativeLayout"/>
@@ -16,47 +18,66 @@
             <Data Key="mine_xpath" Value="//android.widget.FrameLayout[@content-desc='我的']/android.widget.ImageView"/>
         </Module>
         <Module name="News">
-            <Data Key="homePage_xpath" Value="//android.widget.FrameLayout[@content-desc='首页']/android.widget.ImageView"/>
+            <Data Key="homePage_xpath"
+                  Value="//android.widget.FrameLayout[@content-desc='首页']/android.widget.ImageView"/>
             <Data Key="newsViewGroup_id" Value="com.aiways.auto:id/layout"/>
-            <Data Key="newsDetailBanner_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.widget.Image"/>
-            <Data Key="newsBannerDetail_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.widget.ImageView"/>
-            <Data Key="newsDetailImg_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View/android.widget.Image"/>
-            <Data Key="newsDetailVideo_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.Button"/>
-            <Data Key="HotComment_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]"/>
-            <Data Key="AllComent_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[5]/android.view.View/android.widget.ListView/android.view.View[2]"/>
+            <Data Key="newsDetailBanner_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.widget.Image"/>
+            <Data Key="newsBannerDetail_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View[1]/android.view.View/android.view.View/android.widget.ImageView"/>
+            <Data Key="newsDetailImg_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View/android.widget.Image"/>
+            <Data Key="newsDetailVideo_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.Button"/>
+            <Data Key="HotComment_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]"/>
+            <Data Key="AllComent_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[5]/android.view.View/android.widget.ListView/android.view.View[2]"/>
             <Data Key="CommentReply_xpath" Value="
 /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[9]/android.view.View/android.widget.ListView/android.view.View[2]/android.view.View[7]/android.widget.Button"/>
-            <Data Key="ReplyEditBox_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View/android.widget.EditText"/>
-            <Data Key="WriteComment_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View[1]"/>
-            <Data Key="LikeNewsBtn_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[8]/android.view.View[3]/android.view.View[1]/android.widget.Button"/>
+            <Data Key="ReplyEditBox_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View/android.widget.EditText"/>
+            <Data Key="WriteComment_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View[1]"/>
+            <Data Key="LikeNewsBtn_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[8]/android.view.View[3]/android.view.View[1]/android.widget.Button"/>
             <Data Key="ComInputTextArea_xpath" Value="
 /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[6]/android.view.View/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]/android.widget.SeekBar"/>
             <Data Key="CommentEditBox_xpath" Value="
 /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View/android.widget.EditText"/>
-            <Data Key="CommitCommentBtn_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View/android.widget.Button"/>
-            <Data Key="CommitReplyBtn_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[8]/android.view.View/android.widget.Button"/>
-            <Data Key="newsDetailText_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]"/>
-            <Data Key="DeleteReply_xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[7]/android.view.View/android.widget.ListView/android.view.View[2]/android.view.View[8]/android.view.View[5]"/>
+            <Data Key="CommitCommentBtn_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[8]/android.view.View/android.widget.Button"/>
+            <Data Key="CommitReplyBtn_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View/android.view.View[8]/android.view.View/android.widget.Button"/>
+            <Data Key="newsDetailText_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[6]"/>
+            <Data Key="DeleteReply_xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[7]/android.view.View/android.widget.ListView/android.view.View[2]/android.view.View[8]/android.view.View[5]"/>
             <Data Key="likeComment_xpath" Value="
 /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.RelativeLayout/android.widget.LinearLayout[1]/android.view.ViewGroup/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[7]/android.view.View/android.widget.ListView/android.view.View[2]/android.view.View[5]/android.widget.Button"/>
             <Data Key="androidBtn_classname" Value="android.widget.Button"/>
         </Module>
         <Module name="Topics">
-            <Data Key="topicsTab_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题']/android.widget.TextView"/>
-            <Data Key="topicBtn_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题帖']" />
+            <Data Key="topicsTab_xpath"
+                  Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题']/android.widget.TextView"/>
+            <Data Key="topicBtn_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='话题帖']"/>
             <Data Key="voteBtn_xpath" Value="//android.support.v7.app.ActionBar.Tab[@content-desc='投票']"/>
             <Data Key="topicsPicture_id" Value="com.aiways.auto:id/img_picture"/>
         </Module>
     </Platform>
-    <Platform name ="Android_GalaxyS9">
+    <Platform name="Android_GalaxyS9">
         <Module name="LoginOut">
             <Data Key="skip-id" Value="com.aiways.auto:id/surface_container"/>
             <Data Key="isLoginTag-id" Value="com.aiways.auto:id/tv_login"/>
-            <Data Key="mobile-xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText"/>
-            <Data Key="code-xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.EditText"/>
+            <Data Key="mobile-xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[1]/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.EditText"/>
+            <Data Key="code-xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.widget.RelativeLayout[2]/android.widget.RelativeLayout/android.widget.EditText"/>
             <Data Key="loginBtn-id" Value="com.aiways.auto:id/btn_login"/>
-            <Data Key="settings-xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v4.view.ViewPager/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[11]/android.widget.RelativeLayout/android.widget.LinearLayout"/>
-            <Data Key="logoutBtn-xpath" Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[7]/android.widget.RelativeLayout/android.widget.LinearLayout"/>
+            <Data Key="settings-xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.view.ViewGroup/android.view.ViewGroup/android.support.v4.view.ViewPager/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[11]/android.widget.RelativeLayout/android.widget.LinearLayout"/>
+            <Data Key="logoutBtn-xpath"
+                  Value="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/com.aiways.sliding.SlidingLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.widget.FrameLayout/android.widget.ScrollView/android.view.ViewGroup/android.widget.RelativeLayout[7]/android.widget.RelativeLayout/android.widget.LinearLayout"/>
             <Data Key="confirmQuit-btn" Value="com.aiways.auto:id/common_custom_dialog_right_btn_tv"/>
             <Data Key="mine-xpath" Value="//android.widget.FrameLayout[@content-desc=\'我的\']/android.widget.ImageView"/>
         </Module>
@@ -82,16 +103,21 @@
             <Data Key="input_IosNsPredicate" Value="type == 'XCUIElementTypeTextField'"/>
             <Data Key="loginBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '登录/注册'"/>
             <Data Key="settingsBtn_IosNsPredicate" Value="type == 'XCUIElementTypeCell'"/>
-            <Data Key="logoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeCell'" />
-            <Data Key="confirmlogoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '确定'" />
+            <Data Key="logoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeCell'"/>
+            <Data Key="confirmlogoutBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND label == '确定'"/>
         </Module>
         <Module name="News">
-            <Data Key="HomeBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND name == '首页'" />
-            <Data Key="XCUIElementTypeCells_xpath" Value="//XCUIElementTypeApplication[@name='爱驰汽车']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell" />
-            <Data Key="back_AccessibilityId" Value="navigation back" />
-            <Data Key="imgElementsLis1t_IosNsPredicate" Value="type == 'XCUIElementTypeImage' AND visible == true AND enabled == true"/>
-            <Data Key="imgElementsList2_IosNsPredicate" Value="type == 'XCUIElementTypeImage'" />
-
+            <Data Key="HomeBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND name == '首页'"/>
+            <Data Key="XCUIElementTypeCells_xpath"
+                  Value="//XCUIElementTypeApplication[@name='爱驰汽车']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell"/>
+            <Data Key="back_AccessibilityId" Value="navigation back"/>
+            <Data Key="imgElementsLis1t_IosNsPredicate"
+                  Value="type == 'XCUIElementTypeImage' AND visible == true AND enabled == true"/>
+            <Data Key="imgElementsList2_IosNsPredicate" Value="type == 'XCUIElementTypeImage'"/>
+            <Data Key="detailVideo_IosNsPredicate" Value="type == 'XCUIElementTypeOther' AND name == '不确定的时间'"/>
+            <Data Key="input_IosNsPredicate" Value="type == 'XCUIElementTypeStaticText' AND name == '我来说两句……'"/>
+            <Data Key="XCUIElementTypeTextView_IosNsPredicate" Value=" type == 'XCUIElementTypeTextView'"/>
+            <Data Key="commitBtn_IosNsPredicate" Value="type == 'XCUIElementTypeButton' AND name == '完成'"/>
         </Module>
     </Platform>
 </Run>

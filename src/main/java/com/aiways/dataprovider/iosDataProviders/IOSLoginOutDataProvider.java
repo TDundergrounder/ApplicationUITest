@@ -1,6 +1,5 @@
 package com.aiways.dataprovider.iosDataProviders;
 
-import com.aiways.Invokers.androidInvokers.LoginInvoker;
 import com.aiways.Invokers.iosInvokers.IOSLoginOutInvoker;
 import com.aiways.constants.TestConstants;
 import com.aiways.dataprovider.AbstractTestDataProvider;

@@ -30,11 +30,7 @@ public class IOSCapabilitiesDataProvider extends AbstractTestDataProvider {
 
     protected static String getRemote(){
 
-        return TestConfiguration.instance().get_appium_remoteHost()
-                +":"
-                +TestConfiguration.instance().get_appium_remotePort()
-                +""
-                +TestConfiguration.instance().get_appium_remotePath();
+        return TestConfiguration.instance().get_appium_remoteServer();
     }
 
     public static final String DATA_GETCAPABILITIES = "GetCapabilities";

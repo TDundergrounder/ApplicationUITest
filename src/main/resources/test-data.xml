@@ -59,8 +59,8 @@
             <Data Key="code" Value="223456"/>
         </Module>
         <Module name="News">
-            <Data Key="CommentContent" Value="appiumios_UITest_"/>
-            <Data Key="ComReplyContent" Value="appiumios_UITest_Reply"/>
+            <Data Key="CommentContent" Value="appium_ios_UITest_"/>
+            <Data Key="ComReplyContent" Value="appium_ios_UITest_Reply"/>
         </Module>
     </Platform>
 </Run>

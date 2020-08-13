@@ -10,4 +10,9 @@ public class DataGenera {
         String date = df.format(new Date());
         return date;
     }
+
+    public static String subStrToEnd(String str,String indexStr) {
+
+        return str.substring(str.indexOf(indexStr)+1);
+    }
 }

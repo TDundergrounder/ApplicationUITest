@@ -22,6 +22,8 @@ public class IOSSetCapabilitiesInvoker extends AbstractInvoker {
 
     public static IOSDriver<IOSElement> driver = null;
 
+    public static Map<String, Object> capEntry = null;
+
     private IOSSetCapabilitiesInvoker() {
         super(TestConstants.GROUP_CAPABILITIES);
     }
@@ -43,6 +45,8 @@ public class IOSSetCapabilitiesInvoker extends AbstractInvoker {
 
         //遍历取值
         for (Map.Entry<String, Object> entry : capJson.entrySet()) {
+
+            capEntry.put(entry.getKey(),entry.getValue());
 
             System.out.println(entry.getKey() + ":" + entry.getValue() + "," + "\n");
 

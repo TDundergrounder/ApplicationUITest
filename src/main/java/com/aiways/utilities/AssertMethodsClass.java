@@ -28,4 +28,14 @@ public class AssertMethodsClass {
             return false;
         }
     }
+
+    public boolean byIOSpredicateExist(IOSDriver<IOSElement> driver,String predicateStr) {
+
+        try {
+            driver.findElementByIosNsPredicate(predicateStr);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
 }

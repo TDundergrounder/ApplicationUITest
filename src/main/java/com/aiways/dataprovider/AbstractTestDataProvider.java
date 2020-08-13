@@ -30,7 +30,7 @@ public abstract class AbstractTestDataProvider {
 
     private static boolean _isLoaded = false;
 
-    private static boolean is_isLoaded = false;
+    private static boolean is_locateLoaded = false;
 
     static {
         loadData();
@@ -80,7 +80,7 @@ public abstract class AbstractTestDataProvider {
 
     private static void load_locatePageData() {
         try {
-            if (is_isLoaded) {
+            if (is_locateLoaded) {
                 return;
             }
             InputStream stream = Class.class.getResourceAsStream(FILE_LOCATE);
@@ -113,7 +113,7 @@ public abstract class AbstractTestDataProvider {
 
             stream.close();
 
-            is_isLoaded = true;
+            is_locateLoaded = true;
         } catch (Exception e) {
             Assert.fail(e.getMessage());
         }

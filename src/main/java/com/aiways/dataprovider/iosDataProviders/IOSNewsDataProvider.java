@@ -43,15 +43,19 @@ public class IOSNewsDataProvider extends AbstractTestDataProvider {
                 _iosnewslocateData.get("XCUIElementTypeCells_xpath"),
                 _iosnewslocateData.get("back_AccessibilityId"),
                 _iosnewslocateData.get("imgElementsLis1t_IosNsPredicate"),
-                _iosnewslocateData.get("imgElementsList2_IosNsPredicate")
+                _iosnewslocateData.get("imgElementsList2_IosNsPredicate"),
+                _iosnewslocateData.get("detailVideo_IosNsPredicate"),
+                _iosnewslocateData.get("input_IosNsPredicate"),
+                _iosnewslocateData.get("XCUIElementTypeTextView_IosNsPredicate"),
+                _iosnewslocateData.get("commitBtn_IosNsPredicate")
         );
 
         return locateModel;
     }
 
-    public static final String DATA_GETLOGINOUTDATA = "GetNewsData";
+    public static final String DATA_GETNEWSTESTDATA = "GetNewsData";
 
-    @DataProvider(name = DATA_GETLOGINOUTDATA)
+    @DataProvider(name = DATA_GETNEWSTESTDATA)
     public static Object[][] getLoginOutData(ITestContext context) {
 
         return new Object[][]{

@@ -16,6 +16,14 @@ public class IOSNewsLocateModel implements Serializable {
 
     private String imgElementsList2_IosNsPredicate;
 
+    private String detailVideo_IosNsPredicate;
+
+    private String input_IosNsPredicate;
+
+    private String XCUIElementTypeTextView_IosNsPredicate;
+
+    private String commitBtn_IosNsPredicate;
+
     public String getHomeBtn_IosNsPredicate() {
         return HomeBtn_IosNsPredicate;
     }
@@ -56,12 +64,48 @@ public class IOSNewsLocateModel implements Serializable {
         this.imgElementsList2_IosNsPredicate = imgElementsList2_IosNsPredicate;
     }
 
-    public IOSNewsLocateModel(String homeBtn_IosNsPredicate, String XCUIElementTypeCells_xpath, String back_AccessibilityId, String imgElementsLis1t_IosNsPredicate, String imgElementsList2_IosNsPredicate) {
+    public String getDetailVideo_IosNsPredicate() {
+        return detailVideo_IosNsPredicate;
+    }
+
+    public void setDetailVideo_IosNsPredicate(String detailVideo_IosNsPredicate) {
+        this.detailVideo_IosNsPredicate = detailVideo_IosNsPredicate;
+    }
+
+    public String getInput_IosNsPredicate() {
+        return input_IosNsPredicate;
+    }
+
+    public void setInput_IosNsPredicate(String input_IosNsPredicate) {
+        this.input_IosNsPredicate = input_IosNsPredicate;
+    }
+
+    public String getXCUIElementTypeTextView_IosNsPredicate() {
+        return XCUIElementTypeTextView_IosNsPredicate;
+    }
+
+    public void setXCUIElementTypeTextView_IosNsPredicate(String XCUIElementTypeTextView_IosNsPredicate) {
+        this.XCUIElementTypeTextView_IosNsPredicate = XCUIElementTypeTextView_IosNsPredicate;
+    }
+
+    public String getCommitBtn_IosNsPredicate() {
+        return commitBtn_IosNsPredicate;
+    }
+
+    public void setCommitBtn_IosNsPredicate(String commitBtn_IosNsPredicate) {
+        this.commitBtn_IosNsPredicate = commitBtn_IosNsPredicate;
+    }
+
+    public IOSNewsLocateModel(String homeBtn_IosNsPredicate, String XCUIElementTypeCells_xpath, String back_AccessibilityId, String imgElementsLis1t_IosNsPredicate, String imgElementsList2_IosNsPredicate, String detailVideo_IosNsPredicate, String input_IosNsPredicate, String XCUIElementTypeTextView_IosNsPredicate, String commitBtn_IosNsPredicate) {
         HomeBtn_IosNsPredicate = homeBtn_IosNsPredicate;
         this.XCUIElementTypeCells_xpath = XCUIElementTypeCells_xpath;
         this.back_AccessibilityId = back_AccessibilityId;
         this.imgElementsLis1t_IosNsPredicate = imgElementsLis1t_IosNsPredicate;
         this.imgElementsList2_IosNsPredicate = imgElementsList2_IosNsPredicate;
+        this.detailVideo_IosNsPredicate = detailVideo_IosNsPredicate;
+        this.input_IosNsPredicate = input_IosNsPredicate;
+        this.XCUIElementTypeTextView_IosNsPredicate = XCUIElementTypeTextView_IosNsPredicate;
+        this.commitBtn_IosNsPredicate = commitBtn_IosNsPredicate;
     }
 
     @Override
