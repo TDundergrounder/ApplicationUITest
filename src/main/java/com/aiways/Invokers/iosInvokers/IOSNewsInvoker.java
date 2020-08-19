@@ -3,19 +3,12 @@ package com.aiways.Invokers.iosInvokers;
 import com.aiways.Invokers.AbstractInvoker;
 import com.aiways.constants.SpringConstants;
 import com.aiways.constants.TestConstants;
-import com.aiways.models.androidModels.news.NewsDataModel;
-import com.aiways.models.androidModels.news.NewsLocateModel;
-import com.aiways.models.iosModels.loginOut.IOSLoginOutLocateModel;
 import com.aiways.models.iosModels.news.IOSNewsLocateModel;
 import com.aiways.models.iosModels.news.IOSNewsModel;
-import com.aiways.utilities.AssertMethodsClass;
 import com.aiways.utilities.DataGenera;
 import com.aiways.utilities.SwipeTools.IOSSwipe;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.ios.IOSDriver;
 import io.appium.java_client.ios.IOSElement;
-import org.openqa.selenium.By;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -41,6 +34,8 @@ public class IOSNewsInvoker extends AbstractInvoker {
         try {
             driver.findElementByIosNsPredicate(locateModel.getHomeBtn_IosNsPredicate()).click();
             Thread.sleep(2000);
+            IOSSwipe iosSwipe = new IOSSwipe();
+            iosSwipe.SwipeUpToBottom(driver,"更多");
             List<IOSElement> iosElementList = driver.findElementsByXPath(locateModel.getXCUIElementTypeCells_xpath());
             iosElementList.get(index).click();
             Thread.sleep(2000);

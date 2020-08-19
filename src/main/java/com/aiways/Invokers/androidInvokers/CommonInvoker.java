@@ -1,6 +1,7 @@
 package com.aiways.Invokers.androidInvokers;
 
 import com.aiways.Invokers.AbstractInvoker;
+import com.aiways.config.TestConfiguration;
 import com.aiways.constants.SpringConstants;
 import com.aiways.constants.TestConstants;
 import com.aiways.models.androidModels.Common.CommonModel;
@@ -8,8 +9,14 @@ import com.aiways.utilities.AssertMethodsClass;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 @Component
 @Scope(SpringConstants.SCOPE_SINGLETON)
@@ -20,6 +27,23 @@ public class CommonInvoker extends AbstractInvoker {
     }
 
     public String userName;
+
+    //生成capabilities
+    public DesiredCapabilities setAndroidCapabilities() throws MalformedURLException {
+        DesiredCapabilities androidCapabilities = new DesiredCapabilities();
+
+        Map<String, String> map = new HashMap<String, String>();
+
+        map = TestConfiguration.instance().get_capabilitiesMap();
+        String remoteUrl = TestConfiguration.instance().get_appium_remoteServer();
+
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + ":" + entry.getValue());
+            androidCapabilities.setCapability(entry.getKey(), entry.getValue());
+        }
+
+        return androidCapabilities;
+    }
 
     //判断是否已登录
     public boolean isLogin(CommonModel model,AndroidDriver<AndroidElement> driver) {

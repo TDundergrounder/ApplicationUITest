@@ -13,7 +13,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-
 @Component
 @Scope(SpringConstants.SCOPE_SINGLETON)
 public class IOSCommonInvoker extends AbstractInvoker {
@@ -23,6 +22,7 @@ public class IOSCommonInvoker extends AbstractInvoker {
     }
 
     public String userName;
+
 
     //判断是否已登录
     public boolean isLogin(IOSCommonModel model, IOSDriver<IOSElement> driver) {
@@ -40,9 +40,9 @@ public class IOSCommonInvoker extends AbstractInvoker {
         //判断登录成功后，获取用户昵称
         if (islogin) {
             List<IOSElement> iosElements = driver.findElementsByIosNsPredicate("type == 'XCUIElementTypeButton'");
-            int index = iosElements.indexOf(driver.findElementByIosNsPredicate("type == 'XCUIElementTypeButton' AND label == '编辑签名'"))-1;
+            int index = iosElements.indexOf(driver.findElementByIosNsPredicate("type == 'XCUIElementTypeButton' AND label == '编辑签名'")) - 1;
             this.userName = iosElements.get(index).getText();
-            System.out.println("用户昵称:"+this.userName);
+            System.out.println("用户昵称:" + this.userName);
         }
         return islogin;
     }

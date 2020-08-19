@@ -57,8 +57,6 @@ t
 Dsrc/main/java/com/aiways/Invokers/androidInvokers/CommonInvoker.java,9/f/9f9135e5295ee1fdddcd001e941c9a3e21cd18d5
 }
 Msrc/main/java/com/aiways/Invokers/androidInvokers/SetCapabilitiesInvoker.java,9/d/9d7973e1d17299bae9fe0fea281c71d317d0fe5c
-á
-Wsrc/main/java/com/aiways/cases/iosapplicationtest/capabilitiescases/GetIOSCapCases.java,2/c/2ce16d626572711c1820caf51bdb8688577f8ff8
 Å
 Qsrc/main/java/com/aiways/dataprovider/iosDataProviders/IOSCommonDataProvider.java,3/f/3f0d04f1a596027d56353783b8d5e5e2b42cc9b3
 à
@@ -71,12 +69,8 @@ Csrc/main/java/com/aiways/Invokers/androidInvokers/LoginInvoker.java,3/a/3ac3a8
 Tsrc/main/java/com/aiways/dataprovider/androidDataProviders/LoginOutDataProvider.java,f/6/f6236383964ac9d52bdc9c219410dc4ed5a5c6db
 K
 Aiways Application Test.iml,a/a/aaca278ff56b564d7f9a4b2d73b88d7a4f9f8bbf
-|
-Lsrc/main/java/com/aiways/Invokers/iosInvokers/IOSSetCapabilitiesInvoker.java,1/f/1f99ff774d4e86280ed216ec4b1f64c4340056d7
 z
 Jsrc/main/java/com/aiways/cases/iosapplicationtest/AbstractIOSTestCase.java,d/4/d40cbeaee3d55c0e9d50ffbd597bbb98dce88c71
-
-Osrc/main/java/com/aiways/cases/iosapplicationtest/logincases/LoginOutCases.java,e/2/e2aa7f50a272b2814255fcf5391d4a5c5200a558
 u
 Esrc/main/java/com/aiways/Invokers/iosInvokers/IOSLoginOutInvoker.java,6/d/6df432359a4a6be3fa71c5189db8098676732350
 r
@@ -95,8 +89,6 @@ v
 Fsrc/main/java/com/aiways/models/iosModels/news/IOSNewsLocateModel.java,d/4/d474bb943660ce3ac8d1bfcfa5e1455d79281a70
 p
 @src/main/java/com/aiways/models/iosModels/news/IOSNewsModel.java,1/5/153bb15d76c9f014eaa198805cdb95b0829d300d
-á
-Wsrc/main/java/com/aiways/dataprovider/iosDataProviders/IOSCapabilitiesDataProvider.java,0/c/0cf9f1374c82c0444ca8f5503502cfa577a75d8d
 
 Osrc/main/java/com/aiways/dataprovider/iosDataProviders/IOSNewsDataProvider.java,c/8/c8358443cb3e9844382be3f6598c6e416d316f5c
 É

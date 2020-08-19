@@ -1,22 +1,19 @@
 package com.aiways.cases.androidapplicationtest.newscases;
 
-import com.aiways.Invokers.androidInvokers.SetCapabilitiesInvoker;
 import com.aiways.cases.androidapplicationtest.AbstractTestCase;
 import com.aiways.config.TestConfiguration;
 import com.aiways.constants.TestConstants;
 import com.aiways.dataprovider.androidDataProviders.CommonDataProvider;
 import com.aiways.dataprovider.androidDataProviders.NewsDataProvider;
 import com.aiways.models.androidModels.Common.CommonModel;
-import com.aiways.models.androidModels.capability.AndroidCapabilitiesModel;
 import com.aiways.models.androidModels.news.NewsDataModel;
 import com.aiways.models.androidModels.news.NewsLocateModel;
 import com.aiways.utilities.ClientGroup;
-import com.google.gson.Gson;
+import com.aiways.utilities.DataGenera;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.apache.log4j.Logger;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -24,8 +21,6 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import static io.appium.java_client.android.nativekey.AndroidKey.BACK;
@@ -49,25 +44,15 @@ public class NewsActionCases extends AbstractTestCase {
     @BeforeTest
     private void start() {
         try {
-            DesiredCapabilities iosCapabilities = new DesiredCapabilities();
-
-            String remoteUrl = TestConfiguration.instance().get_appium_remoteServer();
-
-            Map<String, String> map = new HashMap<String, String>();
-
-            map = TestConfiguration.instance().get_capabilitiesMap();
-
-            for (Map.Entry<String, String> entry : map.entrySet()) {
-                System.out.println(entry.getKey() + ":" + entry.getValue());
-                iosCapabilities.setCapability(entry.getKey(), entry.getValue());
-            }
-            driver = new AndroidDriver<AndroidElement>(new URL(remoteUrl), iosCapabilities);
-            driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+            driver = new AndroidDriver<AndroidElement>(
+                    new URL(TestConfiguration.instance().get_appium_remoteServer()),
+                    new DataGenera().getIosCapabilities(TestConfiguration.instance().get_capabilitiesMap())
+            );
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
     }
-
 
     //传入参数,赋值is_login
     @Test(dataProvider = CommonDataProvider.DATA_GETCOMMONDATA, dataProviderClass = CommonDataProvider.class,

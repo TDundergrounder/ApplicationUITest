@@ -94,6 +94,4 @@ public class IOSLoginOutInvoker extends AbstractInvoker {
             e.printStackTrace();
         }
     }
-
-
 }
