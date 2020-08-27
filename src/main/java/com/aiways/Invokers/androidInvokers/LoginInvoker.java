@@ -24,19 +24,23 @@ public class LoginInvoker extends AbstractInvoker {
         super(TestConstants.GROUP_LOGINOUT);
     }
 
-//    public AndroidDriver<AndroidElement> getDriver(AndroidCapabilitiesModel model, String remoteUrl) {
-//
-//        //初始化webdriver
-//        driver = SetCapabilitiesInvoker.getInstance().InitDriver(model, remoteUrl);
-//
-//        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-//
-//        return driver;
-//    }
-
 
     public void loginOut(LoginOutModel model, LoginOutLocateModel loc_model, AndroidDriver<AndroidElement> driver) {
         try {
+            AssertMethodsClass assertMethodsClass = new AssertMethodsClass();
+            Boolean homePageExist = assertMethodsClass.byElementIsExist(By.xpath(loc_model.getMine_xpath()),driver);
+            if(!homePageExist) {
+                SwipeTool swipeTool = new SwipeTool();
+                for (int i = 0; i < 5; i++) {
+                    swipeTool.SwipeLeft(driver);
+                    Thread.sleep(2000);
+                };
+                driver.findElementById("com.aiways.auto:id/btn_guide_start").click();
+            }
+            Thread.sleep(3000);
+            if(assertMethodsClass.byElementIsExist(By.id("com.android.permissioncontroller:id/permission_allow_foreground_only_button"),driver)){
+                driver.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").click();
+            }
             Thread.sleep(5000);
             //click mine
             AndroidElement elementMine = driver.findElementByXPath(loc_model.getMine_xpath());

@@ -13,7 +13,7 @@ public class SwipeTool {
     //上滑到屏幕底部
     public void SwipeUpToBottom(AndroidDriver driver,String endString) throws InterruptedException {
         boolean isSwipe = true;
-// 滑动屏幕直到页面底部
+    // 滑动屏幕直到页面底部
         while (isSwipe) {
             SwipeUp(driver);//向上滑动屏幕
             String temp =driver.getPageSource();
@@ -54,9 +54,22 @@ public class SwipeTool {
         int width = size.width;
         new TouchAction(driver)
                 .longPress(PointOption.point(width - 100, height / 2))
-                .moveTo(PointOption.point(100, height / 2))
+                .moveTo(PointOption.point(width - 900, height / 2))
                 .release()
                 .perform();
+    }
+
+    public void SwipeLeftTo(AndroidDriver driver,String endString) throws InterruptedException {
+        boolean isSwipe = true;
+// 滑动屏幕直到页面底部
+        while (isSwipe) {
+            SwipeLeft(driver);//向左滑动屏幕
+            String temp =driver.getPageSource();
+            if(temp.contains(endString) ) {
+                Thread.sleep(3000);
+                isSwipe = false;
+            }
+        }
     }
 
     // 右滑

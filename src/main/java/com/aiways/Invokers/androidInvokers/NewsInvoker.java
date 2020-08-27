@@ -37,6 +37,21 @@ public class NewsInvoker extends AbstractInvoker {
     public void viewNewsDetail(NewsDataModel dataModel, NewsLocateModel locateModel,
                                 AndroidDriver<AndroidElement> driver,int NewsIndex) {
         try {
+            AssertMethodsClass assertMethodsClass = new AssertMethodsClass();
+            Boolean homePageExist = assertMethodsClass.byElementIsExist(By.xpath(locateModel.getHomePage_xpath()),driver);
+            if(!homePageExist) {
+                SwipeTool swipeTool = new SwipeTool();
+                for (int i = 0; i < 5; i++) {
+                    swipeTool.SwipeLeft(driver);
+                    Thread.sleep(2000);
+                };
+                driver.findElementById("com.aiways.auto:id/btn_guide_start").click();
+            }
+            Thread.sleep(3000);
+            if(assertMethodsClass.byElementIsExist(By.id("com.android.permissioncontroller:id/permission_allow_foreground_only_button"),driver)){
+                driver.findElementById("com.android.permissioncontroller:id/permission_allow_foreground_only_button").click();
+            }
+            Thread.sleep(5000);
             //点击首页
             driver.findElementByXPath(locateModel.getHomePage_xpath()).click();
             Thread.sleep(2000);
@@ -44,6 +59,7 @@ public class NewsInvoker extends AbstractInvoker {
             List<AndroidElement> newsgroup = driver.findElementsById(locateModel.getNewsViewGroup_id());
             newsgroup.get(NewsIndex).click();
             Thread.sleep(3000);
+
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

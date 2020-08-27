@@ -34,7 +34,7 @@ public class LoginOutCases extends AbstractTestCase {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Test(dataProvider = LoginOutDataProvider.DATA_GETLOGINOUTDATA, dataProviderClass = LoginOutDataProvider.class)
