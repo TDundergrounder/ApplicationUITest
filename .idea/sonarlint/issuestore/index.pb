@@ -46,8 +46,6 @@ Rsrc/main/java/com/aiways/dataprovider/androidDataProviders/CommonDataProvider.j
 ‚
 Rsrc/main/java/com/aiways/dataprovider/androidDataProviders/TopicsDataProvider.java,6/a/6af9e7e73b7cc5e566ff778f2dfd1d9f600a6216
 ˆ
-Xsrc/main/java/com/aiways/cases/androidapplicationtest/capabilitiescases/GetCapCases.java,0/a/0a0c0cb445b6769ca768cd4151418c0abe895293
-ˆ
 Xsrc/main/java/com/aiways/dataprovider/androidDataProviders/CapabilitiesDataprovider.java,d/f/df5f5fd3a4f0aeb14abda024ee9489dcf2d441db
 l
 <src/main/java/com/aiways/utilities/SwipeTools/SwipeTool.java,2/d/2d850013880efc4f27559d0b508087273c00e12f
@@ -55,8 +53,6 @@ u
 Esrc/main/java/com/aiways/models/androidModels/Common/CommonModel.java,0/6/06b82d2f996e5e897988f2ef57979200cbecbfba
 t
 Dsrc/main/java/com/aiways/Invokers/androidInvokers/CommonInvoker.java,9/f/9f9135e5295ee1fdddcd001e941c9a3e21cd18d5
-}
-Msrc/main/java/com/aiways/Invokers/androidInvokers/SetCapabilitiesInvoker.java,9/d/9d7973e1d17299bae9fe0fea281c71d317d0fe5c
 
 Qsrc/main/java/com/aiways/dataprovider/iosDataProviders/IOSCommonDataProvider.java,3/f/3f0d04f1a596027d56353783b8d5e5e2b42cc9b3
 ˆ
@@ -97,3 +93,7 @@ q
 Asrc/main/java/com/aiways/Invokers/iosInvokers/IOSNewsInvoker.java,3/b/3b976145055f590ec47b8b892ebe5ba3fcd774c3
 ƒ
 Ssrc/main/java/com/aiways/cases/iosapplicationtest/newscases/IOSNewsActionCases.java,9/8/98a6b4f52e53296864fa82a5c29cb2078fc60a8e
+e
+5src/main/java/com/aiways/utilities/WebViewSwitch.java,5/e/5ec5ac5ab46ef8e2603d4956cb66fd9e8375efdb
+z
+Jsrc/main/java/com/aiways/cases/androidapplicationtest/WebViewTestDemo.java,3/3/33106a0ab45b1aee8ab3794f2e1e6e6037483f98

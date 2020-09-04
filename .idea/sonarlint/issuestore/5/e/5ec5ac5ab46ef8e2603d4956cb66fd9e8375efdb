@@ -1,0 +1,10 @@
+
+{squid:S00116"^Rename this field "MAX_TIMEOUT_SECONDS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§´ä8¢ç±ôÂ.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢ç±ôÂ.
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òà´Ç8­¶ªõÂ.
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(Ì©Œ¥úÿÿÿÿ8¢ç±ôÂ.
+’"squid:ClassVariableVisibilityCheck"_Make MAX_TIMEOUT_SECONDS a static final constant or non-public and provide accessors if needed.(§´ä8ÔµôÂ.
+_squid:S1155">Use isEmpty() to check whether the collection is empty or not.(»Ë³ûùÿÿÿÿ8Š÷öôÂ.
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®ˆœä8ñ¢÷ôÂ.
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢ç±ôÂ.

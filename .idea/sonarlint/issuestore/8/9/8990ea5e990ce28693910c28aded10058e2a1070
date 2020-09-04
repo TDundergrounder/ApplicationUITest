@@ -1,11 +1,20 @@
 
-^squid:S2147"DCombine this catch with the one at line 57, which has the same body.(É˜Ùúÿÿÿÿ
-xsquid:S00116"]Rename this field "_appium_remotePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êœ™ªÿÿÿÿÿ
-ssquid:S00116"]Rename this field "_appium_remotePort" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãê˜É
 jsquid:S00116"TRename this field "_platform" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÍ¢”
-rsquid:S00116"]Rename this field "_appium_remoteHost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İæ«)
+xsquid:S00116"]Rename this field "_appium_remotePath" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êœ™ªÿÿÿÿÿ
 isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ¶ÇÉúÿÿÿÿ
-csquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ä‘
 §%squid:RedundantThrowsDeclarationCheck"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(“Ôñ†
-isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿‘±òşÿÿÿÿ
-dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÆóÖ
+rsquid:S00116"]Rename this field "_appium_remoteHost" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İæ«)
+ssquid:S00116"]Rename this field "_appium_remotePort" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãê˜É
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(’ÚÀ¯8ü³‹÷Â.
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë¢çşÿÿÿÿ8ü³‹÷Â.
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íü¦íÿÿÿÿÿ8ü³‹÷Â.
+`squid:S2147"DCombine this catch with the one at line 88, which has the same body.(ï­£Ä8ü³‹÷Â.
+zsquid:S00116"]Rename this field "_cap__platformName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×‰ğ8ü³‹÷Â.
+|squid:S00116"_Rename this field "_cap_platformVersion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀñìÃ8ü³‹÷Â.
+|squid:S00116"ZRename this field "_cap_deviceName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú£¥¥ùÿÿÿÿ8ü³‹÷Â.
+wsquid:S00116"ZRename this field "_cap_appPackage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ü8ü³‹÷Â.
+}squid:S00116"[Rename this field "_cap_appActivity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò¦è¾üÿÿÿÿ8ü³‹÷Â.
+vsquid:S00116"TRename this field "_cap_udid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å’ğ–ÿÿÿÿÿ8ü³‹÷Â.
+zsquid:S00116"XRename this field "_cap_bundleId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷äì«úÿÿÿÿ8ü³‹÷Â.
+|squid:S00116"_Rename this field "_cap__automationName" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÿ˜­8ü³‹÷Â.
+xsquid:S00116"[Rename this field "_capabilitiesMap" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÚÀ¯8ü³‹÷Â.

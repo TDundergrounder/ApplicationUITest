@@ -35,6 +35,8 @@ public class WebViewTestDemo extends AbstractTestCase{
             e.printStackTrace();
         }
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+
+
     }
 
     @Test(dataProvider = NewsDataProvider.DATA_GETNEWSTESTDATA, dataProviderClass = NewsDataProvider.class,

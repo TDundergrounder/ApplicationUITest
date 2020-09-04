@@ -1,5 +1,7 @@
 package com.aiways.Invokers.androidInvokers;
 
+import android.support.test.uiautomator.UiObject;
+import android.support.test.uiautomator.UiSelector;
 import com.aiways.Invokers.AbstractInvoker;
 import com.aiways.constants.SpringConstants;
 import com.aiways.constants.TestConstants;
@@ -27,6 +29,7 @@ public class LoginInvoker extends AbstractInvoker {
 
     public void loginOut(LoginOutModel model, LoginOutLocateModel loc_model, AndroidDriver<AndroidElement> driver) {
         try {
+//            driver.findElementByAndroidUIAutomator()
             AssertMethodsClass assertMethodsClass = new AssertMethodsClass();
             Boolean homePageExist = assertMethodsClass.byElementIsExist(By.xpath(loc_model.getMine_xpath()),driver);
             if(!homePageExist) {
